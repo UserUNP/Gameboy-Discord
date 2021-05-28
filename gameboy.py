@@ -21,18 +21,8 @@ async def launch(channel):
         skippedframes=50
         frame = discord.File("recordings/{}".format(os.listdir("recordings")[0]))
         await channel.send(file=frame)
-        gb.tick()
-        gb.tick()
-        gb.tick()
-        gb.tick()
-        gb.tick()
-        gb.tick()
-        gb.tick()
-        gb.tick()
-        gb.tick()
-        gb.tick()
-        gb.tick()
-        gb.tick()
+        for _ in range(12):
+          gb.tick()
       if not skippedframes==0:
         skippedframes = skippedframes-1
         continue
