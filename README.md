@@ -12,3 +12,8 @@ Open command prompt in the folder directory and install these two packages ```di
 ```gb stop``` Stop the currently running emulator  
 ```gb emotes``` Shows the emojis used  
 ```gb use``` Enables the input system, might change  
+To input control after using the ```gb use``` command, you use the ```do``` command followed by the button you wanna press, here are the buttons:  
+```do a``` press A  
+```do s``` press B  
+```do t``` press SELECT  
+```do f``` press START  
