@@ -17,3 +17,7 @@ To input control after using the ```gb use``` command, you use the ```do``` comm
 ```do s``` press B  
 ```do t``` press SELECT  
 ```do f``` press START  
+```do u``` press UP  
+```do d``` press DOWN  
+```do l``` press LEFT  
+```do r``` press RIGHT  
