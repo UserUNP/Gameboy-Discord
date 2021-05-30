@@ -67,5 +67,5 @@ class RawEmbed():
             inline=True)
         return embedmsg
 
-def getBot(guild):
-  return guild.get_member(846392624700981289)
+def getBot(guild, self):
+  return guild.get_member(self.user.id)
