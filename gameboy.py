@@ -3,6 +3,7 @@ import os
 import discord
 import time
 gb=None
+os.system("mkdir recordings")
 async def launch(channel):
   for file in os.listdir("recordings"):
     os.remove("recordings/%s" %(file))
