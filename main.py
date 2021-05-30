@@ -39,7 +39,7 @@ class Client(discord.Client):
             rom = None
             await botmsg.edit(content="Installed Gameboy ROM file %s" % (utils.Emotes.success()))
             botmsg = await message.channel.send("Creating private channel.. %s" %(utils.Emotes.loading()))
-            if(utils.getBot(guild).guild_permissions.manage_channels):
+            if(utils.getBot(guild, self).guild_permissions.manage_channels):
               ctg=None
               for x in guild.categories:
                 if x.name.lower() == "gameboy":
