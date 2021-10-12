@@ -1,5 +1,6 @@
 # Gameboy-Discord
 Using a Gameboy emulator and making it into a Discord bot !
+(dead project)
 
 Im not the best at doing this, and i suck at coding so its completely understandable if you complain how slow this runs.
 I made this bot with my friend RedCommand.
